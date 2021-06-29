@@ -1,1 +1,2118 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>在水一方</title>
+	<style>
+		<!--
+		/*................主题部分.........王欣芸*/
+		*{
+			font-family: 楷体;
+		}/*所有字体为楷体*/
+		body{
+			background-color: #408BC3;
+		}
+		/*以下为header部分*/
+		header{
+			background-color: rgba(255,255,255,1.00);
+			color: #408BC3;
+			height: 34px;
+		}
+		header a{
+			color: #408BC3;
+			text-decoration: none;
+		}/*头部鼠标样式*/
+		header a:hover{
+			color: #016297;
+		}/*头部鼠标悬停样式*/
+		.more{
+			position: absolute;
+			right: 200px;
+			top:15px;
+		}/*头部“更多”文字定位*/
+		.aboutUs{
+			position: absolute;
+			right: 75px;
+			top:15px;
+		}/*头部“关于我们”文字定位*/
+		
+		/*以下为搜索部分*/
+		form{
+			position: absolute;
+			right: 420px;
+			top:350px;
+		}
+		button{
+			background-color: #016297;
+			height: 30px;
+			border: none;
+			color: #FFFFFF;
+			padding-right: 20px;
+			padding-left: 20px;
+		}/*搜索按钮样式*/
+		.search{
+			width: 600px;
+			height: 30px;
+			position: absolute;
+			right: 65px;
+		}/*搜索框样式*/
+		
+		/*以下为导航部分*/
+		nav ul{
+			height: 34px;
+			list-style: none;
+			margin: 0 auto;
+			padding: 0 auto;
+			overflow: hidden;
+			text-align: center;
+			background-color: #FFFFFF;
+			color: #408BC3;
+		}
+		nav li{
+			float: left;
+			margin-left: 70px;
+			margin-right: 50px;
+			margin-top: 10px;
+		}
+		nav li a{
+			color: #408BC3;
+			text-decoration: none;
+			padding: 17px 75px 17px 75px;
+		}/*导航链接样式*/
+		nav li a:hover{
+			background-color: #408BC3;
+			color: #FFFFFF;
+		}/*导航链接鼠标悬停样式*/
+		.video{
+			text-align: center;
+			margin: 80px;
+			font-size: 15px;
+			color: #FFFFFF;
+		}/*精彩视频*/
+		.video img{
+			margin:20px 30px;
+		}/*精彩视频图片*/
+		.video p{
+			color:#408BC3;
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+		}/*精彩视频段落*/
+		.video a{
+			text-decoration: none;
+			color:#408BC3;
+		}/*精彩视频链接*/
+		.video a:hover{
+			color:#016297 
+		}/*精彩视频链接鼠标悬浮显示*/
+		.documentary{
+			text-align: left;
+			font-size: 20px;
+			position: absolute;
+			top:870px;
+			left:320px;
+		}/*精彩视频纪录片部分*/
+		.microFilm{
+			text-align: left;
+			font-size: 20px;
+			position: absolute;
+			top:870px;
+			left:660px;
+		}/*精彩视频微电影部分*/
+		.report{
+			text-align: left;
+			font-size: 15px;
+			position: absolute;
+			top:870px;
+			left:980px;
+		}/*精彩视频新闻报道部分*/
+		.analysis{
+			font-size: 8px;
+			color:#94BEDD;
+			padding-left:15px;
+		}/*精彩视频小字部分*/
+		.partoneNav{
+			color: #FFFFFF;
+			font-size: 22px;
+			line-height: 2;
+			position: absolute;
+			top:1290px;
+			right: 320px;
+		}/*第一部分基础知识导航*/
+		.partoneNav a{
+			text-decoration: none;
+			color: #FFFFFF;
+		}/*第一部分基础知识链接*/
+		.partoneNav a:hover{
+			color:#BEE3FF;
+		}/*第一部分基础知识链接*/
+/*................第一部分.........李子璇*/
+		.partOne{
+			font-size: 20px;
+			color: #016197;
+			margin: 30px;
+		}
+		h2,h1,h3,h4,h5,h6{
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		h20{
+			left:250px;
+			color:#016197;
+			font-size: 30px;
+		}
+		/*链接样式*/
+		.partOne a{
+			color: #1162a4;
+			text-decoration: none;
+		}
+		/*小版块样式*/
+		section{
+			float: left;
+			margin: 30px;
+			background-color: rgba(255,255,255,0.20)
+		}
+		/*图片样式*/
+		.partOne img {
+		  float: left;
+		  margin-bottom: 2px;
+		  margin-right: 22px;
+		  max-width: 61.667%;
+		}
+		/*文字内容样式*/
+		.partOne .text{
+			padding: 50px;
+			margin: 50px;
+			color: #016197;
+			
+		}
+		/*数据来源样式*/
+		.footer{
+			font-size:10px;
+			border: 1px solid #dbdbdb;
+			padding-bottom: .7em;
+			padding-top: .7em;
+			width: 800px;
+			float: left;
+			text-align: center;
+		}
+		/*两种占比图样式*/
+		.single{
+			width:540px;
+			margin:40px;
+			padding: 15px 80px 15px 15px;
+		}
+		/*水的三种形态样式*/
+		.morphous{
+			width:320px;
+			margin:38px;
+			padding-right:60px;
+		}
+		/*拓展信息样式*/
+		.information{
+			float: left;
+			padding: 50px;
+			margin: 50px;
+		}
+/*................第二部分.........王欣芸*/
+		.parttwoNav{
+			color: #FFFFFF;
+			font-size: 22px;
+			line-height: 2.2;
+			position: absolute;
+			top:6100px;
+			right: 320px;
+		}/*第二部分导航*/
+		.parttwoNav a{
+			text-decoration: none;
+			color: #FFFFFF;
+		}/*第二部分不可或缺的水链接*/
+		.parttwoNav a:hover{
+			color:#BEE3FF;
+		}/*第二部分不可或缺的水链接*/
+		.partTwo{
+			position: absolute;
+			top: 5770px;
+			width: 100%;
+		}/*第二部分内容*/
+		h7{
+			position: absolute;
+			top:690px;
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		.humanBg{
+			position: absolute;
+			top:750px;
+			left:67px;
+			width:90%;
+		}/*第一点标题和背景*/
+		h8{
+			position: absolute;
+			top:1600px;
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		.draingeBg{
+			position: absolute;
+			top:1660px;
+			left:67px;
+			width:90%;
+		}/*第二点标题和背景*/
+		h9{
+			position: absolute;
+			top:2260px;
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		.ageBg{
+			position: absolute;
+			top:2330px;
+			left:67px;
+			width:90%;
+		}/*第三点标题和背景*/
+		h10{
+			position: absolute;
+			top:3220px;
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		.foodBg{
+			position: absolute;
+			top:3280px;
+			left:67px;
+			width:90%;
+		}/*第四点标题和背景*/
+		h11{
+			position: absolute;
+			top:3900px;
+			left:50px;
+			color:#016197;
+			font-size: 30px;
+		}
+		.waterBg{
+			position: absolute;
+			top:3980px;
+			left:67px;
+			width:90%;
+		}/*第五点标题和背景*/
+		.humanBody{
+			position: absolute;
+			top: 700px;
+			margin-left: 140px;
+			}
+		/*人体器官含水整体*/
+		/*.humanDrainge{
+			position: absolute;
+			top: 700px;
+			width: 100%
+		}*//*人体排水量整体*/
+		.age{
+			position: absolute;
+			top: 2360px;
+			margin-left: 70px;
+		}/*不同年龄人体含水整体*/
+		.food{
+			position: absolute;
+			top: 3360px;
+			margin-left: 70px;
+		}/*不同食物含水部分整体*/
+		.waterLoss{
+			position: absolute;
+			top: 4000px;
+			margin-left: 150px;
+		}
+		/*人体器官含水部分*/
+		.brain{
+			position: absolute;
+			top:135px;
+			left:545px;
+			width:4%;
+		}
+		dl dt #brain{
+			position: absolute;
+			top:145px;
+			left:550px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #brain{
+			display: block;
+		}
+		/*肺*/
+		.lung{
+			position: absolute;
+			top:244px;
+			left:560px;
+			width:4%;
+		}
+		dl dt #lung{
+			position: absolute;
+			top:260px;
+			left:563px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #lung{
+			display: block;
+		}
+		/*心*/
+		.heart{
+			position: absolute;
+			top:278px;
+			left:155px;
+			width:4%;
+		}
+		dl dt #heart{
+			position: absolute;
+			top:290px;
+			left:154px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #heart{
+			display: block;
+		}
+		/*肾*/
+		.kidney{
+			position: absolute;
+			top:340px;
+			left:575px;
+			width:4%;
+		}
+		dl dt #kidney{
+			position: absolute;
+			top:352px;
+			left:577px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #kidney{
+			display: block;
+		}
+		/*肝*/
+		.liver{
+			position: absolute;
+			top:346px;
+			left:35px;
+			width:4%;
+		}
+		dl dt #liver{
+			position: absolute;
+			top:362px;
+			left:34px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #liver{
+			display: block;
+		}
+		/*脾*/
+		.spleen{
+			position: absolute;
+			top:387px;
+			left:662px;
+			width:4%;
+		}
+		dl dt #spleen{
+			position: absolute;
+			top:402px;
+			left:664px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #spleen{
+			display: block;
+		}
+		/*肠*/
+		.intestinal{
+			position: absolute;
+			top:445px;
+			left:85px;
+			width:4%;
+		}
+		dl dt #intestinal{
+			position: absolute;
+			top:460px;
+			left:89px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #intestinal{
+			display: block;
+		}
+		/*肌肉*/
+		.muscle{
+			position: absolute;
+			top:528px;
+			left:580px;
+			width:4%;
+		}
+		dl dt #muscle{
+			position: absolute;
+			top:547px;
+			left:584px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #muscle{
+			display: block;
+		}
+		/*骨骼*/
+		.skeleton{
+			position: absolute;
+			top:625px;
+			left:133px;
+			width:4%;
+		}
+		dl dt #skeleton{
+			position: absolute;
+			top:640px;
+			left:140px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #skeleton{
+			display: block;
+		}
+		/*皮肤*/
+		.skin{
+			position: absolute;
+			top:665px;
+			left:538px;
+			width:4%;
+		}
+		dl dt #skin{
+			position: absolute;
+			top:682px;
+			left:540px;
+			color:#FFFFFF;
+			font-size: 20px;
+			display: none;
+		}
+		dl dt:hover #skin{
+			display: block;
+		}
+		/*人体器官水含量文字部分*/
+		.humanText{
+			position:  absolute;
+			top:350px;
+			left:810px;
+			color:#016197;
+			font-size: 20px;
+		}
+		.human{
+			width: 63%;
+		}
+		/*人体排水量*/
+		/*坐标轴*/
+		.coordinateSystem{
 
+			width: 40%;
+			position: absolute;
+			top:1750px;
+			left:800px;
+		}
+		/*肾脏排水*/
+		.renalMicturition{
+			width: 26.5%;
+			position: absolute;
+			top:1827px;
+			left:900px;
+		}
+		.dottedCineR{
+			width: 35%;
+			position: absolute;
+			top:1928px;
+			left:840px;
+		}/*肾脏排水标线*/
+		.R
+		{
+			font-size: 30px;
+			position: absolute;
+			top:2000px;
+			left:1070px;
+			color: #FFFFFF;
+		}/*肾脏排水数字*/
+		dl dt #dottedCineR{
+			display: none;
+		}/*肾脏排水标线和数字隐藏*/
+		dl dt:hover #dottedCineR{
+			display:block;
+		}/*肾脏排水标线和数字悬浮显示*/
+		/*皮肤蒸发*/
+		.skinEvaporation{
+			width: 26.5%;
+			position: absolute;
+			top:1625px;
+			left:900px;
+		}
+		.dottedCineS{
+			width: 35%;
+			position: absolute;
+			top:1861px;
+			left:840px;
+		}/*皮肤蒸发标线*/
+		.S
+		{
+			font-size: 30px;
+			position: absolute;
+			top:1870px;
+			left:1070px;
+			color: #FFFFFF;
+		}/*皮肤蒸发数字*/
+		dl dt #dottedCineS{
+			display: none;
+		}/*皮肤蒸发标线和数字隐藏*/
+		dl dt:hover #dottedCineS{
+			display:block;
+		}/*皮肤蒸发标线和数字悬浮显示*/
+		/*肺呼吸*/
+		.pulmonaryRespiration{
+			width: 26.5%;
+			position: absolute;
+			top:1558px;
+			left:900px;
+		}
+		.dottedCineP{
+			width: 35%;
+			position: absolute;
+			top:1808px;
+			left:840px;
+		}/*肺呼吸标线*/
+		.P
+		{
+			font-size: 30px;
+			position: absolute;
+			top:1807px;
+			left:1070px;
+			color: #FFFFFF;
+		}/*肺呼吸数字*/
+		dl dt #dottedCineP{
+			display: none;
+		}/*肺呼吸标线和数字隐藏*/
+		dl dt:hover #dottedCineP{
+			display:block;
+		}/*肺呼吸标线和数字悬浮显示*/
+		/*粪便排出*/
+		.faeces{
+			width: 26.5%;
+			position: absolute;
+			top:1505px;
+			left:900px;
+		}
+		.dottedCineF{
+			width: 35%;
+			position: absolute;
+			top:1793px;
+			left:840px;
+		}/*粪便排出标线*/
+		.F
+		{
+			font-size: 30px;
+			position: absolute;
+			top:1747px;
+			left:1070px;
+			color:#FFFFFF;
+		}/*粪便排出数字*/
+		dl dt #dottedCineF{
+			display: none;
+		}/*粪便排出标线和数字隐藏*/
+		dl dt:hover #dottedCineF{
+			display:block;
+		}/*粪便排出标线和数字悬浮显示*/
+		.humanDraingeText{
+			position:absolute;
+			top:1870px;
+			left:200px;
+			color:#016197;
+			font-size: 20px;
+		}
+		.humanDraingeMl{
+			color:#FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			right: 666px;
+			top:1730px;
+		}
+		/*人体排水文字部分*/
+		/*不同年龄人体含水*/
+		.agePerccentage span{
+			padding: 20px;
+			font-size: 28px;
+			color: #016197;
+		}/*百分数*/
+		.pie img{
+			width: 5%;
+			padding:20px;
+		}/*不同年龄人体含水饼状图*/
+		.people img{
+			width: 7%;
+			padding:0px 10px 10px 0px;
+		}/*不同年龄人体含水具象图*/
+		.people{
+			margin-left: 15px;
+		}/*不同年龄人体含水具象图*/
+		.lineAge img{
+			width: 50%;
+			margin-bottom: 5px;
+			margin-left: 20px;
+		}/*不同年龄人体含水折线面积图*/
+		.age p{
+			font-size: 20px;
+			color: #016197;
+			margin-left: 34px;
+		}/*不同年龄人体含水文字提示*/
+		.lineAge p{
+			font-size: 5px;
+			color: #016197;
+		}/*不同年龄人体含水数据来源文字*/
+		.ageText{
+			position: absolute;
+			top:350px;
+			right: 150px;
+		}
+		/*不同食物含水部分*/
+		.waterLine{
+			width: 50%;	
+			float: right;
+			margin-right: 100px;
+		}/*不同食物含水部分坐标轴*/
+		/*.vegetarian img{
+			width: 4%;
+			padding: 2px;
+		}
+		.vegetarian{
+			position: absolute;
+			right: 90px;
+			top: 108px;
+		}/*素食类*/
+		/*.meat img{
+			width: 4%;
+			padding: 2px;
+		}
+		.meat{
+			position: absolute;
+			right: -128px;
+			top: 129px;
+		}/*肉类*/
+		/*.fruit img{
+			width: 4%;
+			padding: 2px;
+		}
+		.fruit{
+			position: absolute;
+			right: -350px;
+			top: 90px;
+		}/*水果类*/
+		/*.beanCurd{
+			width:4%;
+			position: absolute;
+			right: 710px;
+			top: 110px;
+		}*/
+		.beanCurd{
+			width: 2.24%;
+			position: absolute;
+			left: 703px;
+			top: 48px;
+		}
+		.rice{
+			width: 2.24%;
+			position: absolute;
+			left: 741px;
+			top: 116px;
+		}
+		.steamedDumpling{
+			width: 2.24%;
+			position: absolute;
+			left: 779px;
+			top: 116px;
+		}
+		.bread{
+			width: 2.24%;
+			position: absolute;
+			left: 817px;
+			top: 252px;
+		}
+		.seedCake{
+			width: 2.24%;
+			position: absolute;
+			left: 855px;
+			top:260px;
+		}/*素食类*/
+		.duck{
+			width: 2.2%;
+			position: absolute;
+			left: 916px;
+			top:80px;
+		}
+		.fatCattle{
+			width: 2.2%;
+			position: absolute;
+			left: 953px;
+			top:100px;
+		}
+		.chicken{
+			width: 2.2%;
+			position: absolute;
+			left: 991px;
+			top:104px;
+		}
+		.lean{
+			width: 2.2%;
+			position: absolute;
+			left: 1029px;
+			top:179px;
+		}
+		.egg{
+			width: 2.2%;
+			position: absolute;
+			left: 1067px;
+			top:266px;
+		}/*肉类*/
+		.watermelon{
+			width: 2.2%;
+			position: absolute;
+			left: 1137px;
+			top:33px;
+		}
+		.pineapple{
+			width: 2.2%;
+			position: absolute;
+			left: 1175px;
+			top:41px;
+		}
+		.apple{
+			width: 2.2%;
+			position: absolute;
+			left: 1214px;
+			top:49px;
+		}
+		.litchi{
+			width: 2.2%;
+			position: absolute;
+			left: 1253px;
+			top:72px;
+		}
+		.banana{
+			width: 2.2%;
+			position: absolute;
+			left: 1292px;
+			top:81px;
+		}/*水果类*/
+		.line{
+			width: 46%;
+		}/*标线*/
+		#beanCurd p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 707px;
+			top: -10px;
+		}
+		#beanCurd img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 48px;
+		}
+		dl dt #beanCurd{
+			display: none;
+		}
+		dl dt:hover #beanCurd{
+			display: block;
+		}/*豆腐悬浮显示*/
+		#rice p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 744px;
+			top: 56px;
+		}
+		#rice img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 116px;
+		}
+		dl dt #rice{
+			display: none;
+		}
+		dl dt:hover #rice{
+			display: block;
+		}/*米饭悬浮显示*/
+		#steamedDumpling p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 782px;
+			top: 56px;
+		}
+		#steamedDumpling img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 116px;
+		}
+		dl dt #steamedDumpling{
+			display: none;
+		}
+		dl dt:hover #steamedDumpling{
+			display: block;
+		}/*蒸饺悬浮显示*/
+		#bread p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 820px;
+			top: 190px;
+		}
+		#bread img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 252px;
+		}
+		dl dt #bread{
+			display: none;
+		}
+		dl dt:hover #bread{
+			display: block;
+		}/*面包悬浮显示*/
+		#seedCake p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 860px;
+			top: 199px;
+		}
+		#seedCake img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 260px;
+		}
+		dl dt #seedCake{
+			display: none;
+		}
+		dl dt:hover #seedCake{
+			display: block;
+		}/*油饼悬浮显示*/
+		#duck p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 919px;
+			top: 20px;
+		}
+		#duck img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 80px;
+		}
+		dl dt #duck{
+			display: none;
+		}
+		dl dt:hover #duck{
+			display: block;
+		}/*鸭悬浮显示*/
+		#fatCattle p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 956px;
+			top: 40px;
+		}
+		#fatCattle img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 100px;
+		}
+		dl dt #fatCattle{
+			display: none;
+		}
+		dl dt:hover #fatCattle{
+			display: block;
+		}/*肥牛悬浮显示*/
+		#chicken p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 994px;
+			top: 43px;
+		}
+		#chicken img{
+			font-size: 25px;
+			position: absolute;
+			left: 675px;
+			top: 104px;
+		}
+		dl dt #chicken{
+			display: none;
+		}
+		dl dt:hover #chicken{
+			display: block;
+		}/*鸡悬浮显示*/
+		#lean p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1032px;
+			top: 118px;
+		}
+		#lean img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 179px;
+		}
+		dl dt #lean{
+			display: none;
+		}
+		dl dt:hover #lean{
+			display: block;
+		}/*瘦肉悬浮显示*/
+		#egg p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1070px;
+			top: 205px;
+		}
+		#egg img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 266px;
+		}
+		dl dt #egg{
+			display: none;
+		}
+		dl dt:hover #egg{
+			display: block;
+		}/*鸡蛋悬浮显示*/
+		#watermelon p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1137px;
+			top: -27px;
+		}
+		#watermelon img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 33px;
+		}
+		dl dt #watermelon{
+			display: none;
+		}
+		dl dt:hover #watermelon{
+			display: block;
+		}/*西瓜悬浮显示*/
+		#pineapple p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1178px;
+			top: -19px;
+		}
+		#pineapple img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 41px;
+		}
+		dl dt #pineapple{
+			display: none;
+		}
+		dl dt:hover #pineapple{
+			display: block;
+		}/*菠萝悬浮显示*/
+		#apple p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1217px;
+			top: -11px;
+		}
+		#apple img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 49px;
+		}
+		dl dt #apple{
+			display: none;
+		}
+		dl dt:hover #apple{
+			display: block;
+		}/*苹果悬浮显示*/
+		#litchi p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1256px;
+			top: 12px;
+		}
+		#litchi img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 72px;
+		}
+		dl dt #litchi{
+			display: none;
+		}
+		dl dt:hover #litchi{
+			display: block;
+		}/*荔枝悬浮显示*/
+		#banana p{
+			color: #FFFFFF;
+			font-size: 25px;
+			position: absolute;
+			left: 1295px;
+			top: 21px;
+		}
+		#banana img{
+			font-size: 25px;
+			position: absolute;
+			left: 674px;
+			top: 81px;
+		}
+		dl dt #banana{
+			display: none;
+		}
+		dl dt:hover #banana{
+			display: block;
+		}/*香蕉悬浮显示*/
+		.foodMl{
+			color: #016197;
+			font-size: 25px;
+			position: absolute;
+			left: 657px;
+			top: -60px;
+		}
+		.foodText{
+			color: #016197;
+			font-size: 20px;
+			margin-top: 170px;
+			margin-left: 80px;
+		}
+		/*失水状态部分*/
+		.lossLine{
+			width:15%;
+		}/*坐标*/
+		.totally{
+			width:5.83%;
+			position: absolute;
+			left:77px;
+			top:72px;
+		}/*100%*/
+		.twoPercent{
+			width:15%;
+			position: absolute;
+			left:150px;
+			top:72px;
+		}
+		.downTwo{
+			width:5.83%;
+			position: absolute;
+			left:77px;
+			top:72px;
+		}
+		.twoImpress{
+			width: 5%;
+			position: absolute;
+			left:203px;
+			top:12px;
+		}
+		dl dt #twoPercent{
+			display: none;
+		}
+		dl dt:hover #twoPercent{
+			display: block;
+		} 
+		/*2%*/
+		.tenPercent{
+			width:15%;
+			position: absolute;
+			left:320px;
+			top:72px;
+		}.downTen{
+			width:5.83%;
+			position: absolute;
+			left:77px;
+			top:72px;
+		}
+		.tenImpress{
+			width: 5%;
+			position: absolute;
+			left:373px;
+			top:12px;
+		}
+		dl dt #tenPercent{
+			display: none;
+		}
+		dl dt:hover #tenPercent{
+			display: block;
+		} 
+		/*10%*/
+		.twentyPercent{
+			width:15%;
+			position: absolute;
+			left:490px;
+			top:72px;
+		}
+		.downTwenty{
+			width:5.83%;
+			position: absolute;
+			left:77px;
+			top:72px;
+		}
+		.twentyImpress{
+			width: 5%;
+			position: absolute;
+			left:540px;
+			top:12px;
+		}
+		dl dt #twentyPercent{
+			display: none;
+		}
+		dl dt:hover #twentyPercent{
+			display: block;
+		} 
+		.waterText{
+			color: #016197;
+			width: 100%;
+			font-size: 20px;
+			position: absolute;
+			left:700px;
+			top:190px;
+		}/*20%*/
+/*................第三、四部分.........傅艳*/
+			.picture{height: 400px;width: 500px;float:left;}
+			.picture img{display: block;width:100%;padding-left: 100px;padding-top: 50px;}
+			.explain{float:right;width:580px;margin-top: 40px;margin-right: 140px;line-height: 23px;}
+			.meaning{float:right;width:580px;margin-top: 60px;margin-right: 140px;line-height: 23px;}
+			.drip{height: 150px;width: 150px;float:left;margin-left:50px;}	
+			.drip img{display: block;width:100%;}
+			.sentence{float:right;margin-right: 60px;}
+			.bowl{margin-left: 130px;margin-top: -118px;}
+			.bathe{margin-left: 179px;margin-top: -244px;}
+			.cloth{margin-left: 247px;margin-top: -294.5px;}
+			.toilet{margin-left: 307px;margin-top: -205px;}
+			.abscissa{margin-left: 387px;margin-top: -370px;}
+			.industry{margin-left: 110px;margin-top: -185px;}
+			.life{margin-left: 190px;margin-top: -102.5px;}
+			.agriculture{margin-left: 259px;margin-top: -278px;}
+			.classification{margin-left: 339px;margin-top: -382px;}
+			.partThree{color:#016197;font-size: 20px;font-family: 楷体;position: absolute;top:4870px;margin: 70px;}
+			.partFour{color:#016197;font-size: 20px;font-family: 楷体;position: absolute;top:8430px;margin: 70px;}
+			h12,h13,h14,h15,h16,h18{left:50px;color:#016197;font-size: 30px;}
+			h17{position: absolute;left:10px;color:#016197;font-size: 30px;}
+			.use,.sewage{padding-left: 90px;width: 100%;padding-top: 30px;}
+			.mapBg{
+				position: absolute;top:4910px;left:67px;width:90%;}
+			.insufficientBg{
+				position: absolute;top:5630px;left:67px;width:90%;}
+			.WaterBag{
+				position: absolute;top:6220px;left:67px;width:90%;}
+			.sewageBg{
+				position: absolute;top:6810px;left:67px;width:90%;}
+		.sourcesBg{
+				position: absolute;top:7460px;left:67px;width:90%;}
+		.worldBg{
+				position: absolute;top:8470px;left:67px;width:90%;}
+		.protectBg{
+				position: absolute;top:9020px;left:67px;width:90%;}
+			#threeImage{
+				position: absolute;
+				top:4550px;
+			}
+			.partthreeNav{
+				color: #FFFFFF;
+				font-size: 22px;
+				line-height: 2.2;
+				position: absolute;
+				top:4550px;
+				right: 320px;
+			}/*第三部分导航*/
+			.partthreeNav a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}/*第三部分水资源现状链接*/
+			.partthreeNav a:hover{
+				color:#BEE3FF;
+			}/*第三部分水资源现状链接*/
+			#fourImage{
+				position: absolute;
+				top:8120px;
+			}
+			.partfourNav{
+				color: #FFFFFF;
+				font-size: 22px;
+				line-height: 2.2;
+				position: absolute;
+				top:8200px;
+				right: 320px;
+			}/*第四部分导航*/
+			.partfourNav a{
+				text-decoration: none;
+				color: #FFFFFF;
+			}/*第四部分一起守护链接*/
+			.partfourNav a:hover{
+				color:#BEE3FF;
+			}/*第四部分一起守护链接*/
+		.url{
+			color:#016197;
+			position: absolute;
+			top: 9550px;
+			left: 65px;
+			right:50px;
+		}
+		-->
+	</style>
+</head>
+
+<body>
+	<div>
+		<!--....................分界线........................-->
+		<!--header部分-->
+		<header>
+			<span class="more">
+				<a href="https://www.h2o-china.com/" target="_blank">更多</a>
+			</span>
+			<span class="aboutUs">
+				<a href="https://sjc.cwnu.edu.cn/" target="_blank">关于我们</a>
+			</span>
+		</header>
+		<!--....................分界线........................-->
+		<img src="images/topic map/TopicMap.jpg" alt="picture of the sea" width="100%"><!--主题图-->
+		<form><!--搜索框-->
+			<input type="search" class="search">
+			<button>搜索</button>
+		</form>
+		<!--....................分界线........................-->
+		<!--导航部分-->
+		<nav>
+			<ul>
+			<li><a href="#oneImage">基础知识</a></li>
+			<li><a href="#twoImage">不可或缺的水</a></li>
+			<li><a href="#threeImage">水资源现状</a></li>
+			<li><a href="#fourImage">一起守护</a></li>
+			</ul>
+		</nav>
+		<!--....................分界线........................-->
+		<!--精彩视频-->
+		<div class="video">
+			<h1>精彩视频</h1>
+			<img src="images/video background/documentary.jpg" alt="纪录片背景" width="20%">
+			<div class="documentary"><!--纪录片-->
+				<p><a href="http://tv.cctv.com/2014/10/14/VIDA1413269845643281.shtml" target="_blank">水脉</a></p>
+				<span class="analysis">——见证了世界的沧桑<br>巨变，贯穿了新中国历史的水利工程</span><br><br>
+				<p><a href="https://v.qq.com/detail/m/mzc00200pepw1t8.html" target="_blank">零水日</a></p>
+				<span class="analysis">——面对水资源的枯竭<br>世界是否能成功度过这个难关</span><br><br>
+				<p><a href="https://www.bilibili.com/video/av26495335/" target="_blank">水之源</a></p>
+				<span class="analysis">——亚洲三条著名的河流<br>中国的黄河、印度的恒河、东南亚的湄公河</span><br><br>
+				<p><a href="http://v.qq.com/detail/r/rok5qtiy8iahx1w.html" target="_blank">未来地球</a></p>
+				<span class="analysis">——未来地球，将面临资源耗尽的问题</span>
+			</div>
+			<img src="images/video background/Micro film.jpg" alt="微电影背景" width="20%">
+			<div class="microFilm"><!--微电影-->
+				<p><a href="https://www.vmovier.com/33534?from=search_post" target="_blank">从太空看美丽的地球</a></p>
+				<span class="analysis">——贴近地球的拍摄，<br>它的美丽仿佛近在眼前</span><br><br>
+				<p><a href="https://v.qq.com/x/page/i0395ef64ld.html" target="_blank">造海者</a></p>
+				<span class="analysis">——未来海洋之后，<br>人类进入了丛林法则时代...</span><br><br>
+				<p><a href="https://www.bilibili.com/video/av74797601" target="_blank">水滴</a></p>
+				<span class="analysis">——在末日之战中，仅一个水滴<br>就摧毁了人类大部分太空武装力量</span><br><br>
+				<p><a href="https://v.qq.com/x/page/c0505beh4bz.html" target="_blank">保护水资源</a></p>
+				<span class="analysis">——保护水资源，建设新家园</span>
+			</div>
+			<img src="images/video background/report.jpg" alt="新闻报道背景" width="20%">
+			<div class="report"><!--新闻报道-->
+				<p>
+					<a href="https://v.qq.com/x/page/k0924gmpegu.html" target="_blank">海水变成淡水？<br>那人类还会出现水资源短缺吗？</a>
+				</p><br>
+				<p>
+					<a href="https://tv.sohu.com/v/dXMvMzQ2NjQwNzgxLzIxMTE3MjQyMy5zaHRtbA==.html" target="_blank">张家口水资源短缺，水安全亮起红灯</a>
+				</p><br>
+				<p>
+					<a href="https://tv.sohu.com/v/dXMvMjAxMTE5ODUzLzE0NjkyOTk1OC5zaHRtbA==.html" target="_blank">世界资源研究所公布研究数据：<br>全球25%人口面临水资源短缺问题</a>
+				</p><br>
+				<p>
+					<a href="https://tv.sohu.com/v/dXMvMjAxMTE5ODUzLzIzMjIwNjIyOS5zaHRtbA==.html" target="_blank">科技研发，缓解淡水资源短缺</a>
+				</p><br>
+				<p>
+					<a href="https://www.cgs.gov.cn/xwl/ddyw/202106/t20210621_673881.html" target="_blank">我国启动水资源调查监测，单独设立<br>重点地区水资源调查重大专题</a>
+				</p><br>
+				<p>
+					<a href="https://tv.cctv.com/2021/03/19/VIDEfbJvMmCxz3e8hz3czSfi210319.shtml" target="_blank">全球约40亿人每年<br>至少有一个月面临水资源短缺</a>
+				</p><br>
+				<p>
+					<a href="https://cqwmsj.cbg.cn/show/932-1051560.html" target="_blank">提升水资源利用率，<br>加快建设节水型城市</a>
+				</p><br>
+			</div>
+		</div>
+		<!--....................分界线........................-->
+		<!--第一部分：基础知识-->
+		<div id="oneImage">
+			<img src="images/part one-four background/part one.jpg" alt="第一部分背景导图" width="100%">
+			<ul type="disc" class="partoneNav">
+				<li><a href="#single">海洋与陆地占比</a></li>
+				<li><a href="#singleWater">淡水资源占比</a></li>
+				<li><a href="#rivers">主要河流流域面积</a></li>
+				<li><a href="#lakes">主要湖泊湖面面积</a></li>
+				<li><a href="#morphous">水的存在形式</a></li>
+				<li><a href="#1nutrient">水的营养元素</a></li>
+				<li><a href="#1effect">水的作用图解</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="partOne">
+		<!--一、
+				海洋与陆地的占比图和淡水与水资源的占比图-->
+		<div class="sea">
+			<!--海洋与陆地的占比-->
+			<section class="single">
+				<h1 id="single">·海洋与陆地占比</h1>
+				<!--数据图-->
+				<img src="images/images/1.1land_sea.png" width="400" alt=""/>
+				<!--文字内容-->
+				<p class="single">
+					&nbsp;&nbsp;地球表面总面积约<span><strong>5.1亿平方千米</strong></span>，其中陆地面积<span><strong>1.49亿平方千米</strong></span>，海洋面积<span><strong>3.61亿平方千米</strong></span>，海洋占大部分。<br/>
+					&nbsp;&nbsp;海洋占地球表面积的<span><strong>71%</strong></span>，陆地占地球表面积的<span><strong>29%</strong></span>。<br/>
+					&nbsp;&nbsp;
+					地球上海洋总面积约为3.6亿平方千米，约占地球表面积的71%，平均水深约3795米。海洋中含有十三亿五千多万立方千米的水，约占地球上总水量的97%，而可用于人类饮用只占2%。
+					&hellip; <a href="https://baike.baidu.com/item/%E6%B5%B7%E6%B4%8B/523"><small>了解更多</small></a>
+				</p>
+			</section>
+			
+			<!--淡水与水资源的占比-->
+			<section class="single">
+				<br>
+				<h20 id="singleWater">·淡水与水资源占比</h20>
+				<br><br>
+				<!--数据图-->
+				<img src="images/images/1.2water resources.png" width="400" alt=""/>
+				<!--文字内容-->
+				<p class="single">
+					&nbsp;&nbsp;水资源是自然资源的重要组成部分。地球上水的总储量中海水占<span><strong>97.3%</strong></span>，淡水只占<span><strong>2.7%</strong></span>。<br/>
+					&nbsp;&nbsp;淡水资源中冰山、冰川水占77.2%。地下水和土壤中水占22.4%，湖泊、沼泽水占0.35%，河水占0.01%，大气中水占0.04%。水在自然界中呈循环状态。
+					&hellip; <a href="https://baike.baidu.com/item/%E6%B7%A1%E6%B0%B4%E8%B5%84%E6%BA%90" target="_blank"><small>了解更多</small></a>
+				</p>
+				<br><br>
+			</section>
+		</div>
+		
+		<!--二、
+				主要河流流域面积及长度-->
+		<section>
+			<h2 id="rivers">·主要河流流域面积</h2>
+			<!--数据图-->
+			<img src="images/images/2.1rivers.png" width="600" alt="主要河流流域面积及长度"/>
+			
+			<!--文字内容-->
+			<p class="text">
+				&nbsp;&nbsp;<a href="https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F/388">长江</a>发源于青海省西南部、青藏高原上的唐古拉山脉主峰各拉丹冬雪山，曲折东流，干流先后流经青海、四川、西藏、云南、重庆、湖北、湖南、江西、安徽、江苏、上海共11个省、自治区和直辖市，最后注入东海。全长<span><strong>6300公里</strong></span>，是中国第一大河，也是亚洲最长的河流，世界第三大河，流域面积<span><strong>180多万平方公里</strong></span>，约占全国总面积的1/5，年入海水量约10000亿立方米，占全国河流总入海水量的1/3以上。<br/>
+				&nbsp;&nbsp;<a href="https://baike.baidu.com/item/%E9%BB%84%E6%B2%B3/5394">黄河</a>发源于青海省中部，巴颜喀拉山北麓，流经青海、四川、甘肃、宁夏、内蒙古、山西、陕西、河南、山东9个省、自治区，注入渤海，全长<span><strong>5500公里</strong></span>，是中国第二大河。流域面积<span><strong>75万多平方公里</strong></span>，流经中国青藏高原、内蒙古高原、黄土高原、华北平原，以及干旱、半干旱、半湿润区。<br/>
+				&nbsp;&nbsp;<a href="https://baike.baidu.com/item/%E7%8F%A0%E6%B1%9F/604841">珠江</a>是中国南方最大的河流，其干流西江发源于云南东部。珠江流经云南、贵州、广西、广东入南海，全长2210公里，流域在中国境内<span><strong>44.25万平方公里</strong></span>。主要有西江、北江、东江三大支流水系，北江与东江基本上都在广东境内，三江水系在珠江三角洲汇集，形成纵横交错、港汊纷杂的网状水系。
+				&hellip; <a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%B2%B3%E6%B5%81" target="_blank"><small>了解更多</small></a>
+			</p>
+			
+			<!--数据来源-->
+			<footer>
+				<p class="footer">数据来源：<a href="https://data.cnki.net/trade/Yearbook/Single/N2021020154?z=Z021" target="_blank">中华人民共和国年鉴_</a>河流和湖泊&nbsp;<time>2020</time></p>
+			</footer>
+		</section>
+		
+		<!--三、
+				主要湖泊湖面的面积-->
+		<section>
+			<h3 id="lakes">·主要湖泊湖面面积</h3>
+			<!--数据图-->
+			<img src="images/images/3.1lakes.png" width="600" alt=""/>
+			
+			<!--文字内容-->
+			<p class="text">
+				&nbsp;&nbsp;中国湖泊众多，共有湖泊24800多个，其中面积在1平方公里以上的天然湖泊就有2800多个。湖泊数量虽然很多，但在地区分布上很不均匀。总的来说，东部季风区，特别是长江中下游地区，分布着中国最大的淡水湖群；西部以青藏高原湖泊较为集中，多为内陆咸水湖。 <br/>
+				&nbsp;&nbsp;湖泊数量虽然很多，但在地区分布上很不均匀。总的来说，东部季风区，特别是长江中下游地区，分布着中国最大的淡水湖群；西部以青藏高原湖泊较为集中，多为内陆咸水湖。<br/>
+				&nbsp;&nbsp;按面积排前五位的湖泊是：
+				<a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" target="_blank">青海湖</a>、
+				<a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" target="_blank">鄱阳湖</a>、
+				<a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" target="_blank">洞庭湖</a>、
+				<a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" target="_blank">太湖</a>、
+				<a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" target="_blank">呼伦湖</a>。
+				&nbsp;&nbsp;外流区域的湖泊都与外流河相通，湖水能流进也能排出，含盐分少，称为淡水湖，也称排水湖。中国著名的淡水湖有鄱阳湖、洞庭湖、太湖、洪泽湖、巢湖等。<br/>
+				&nbsp;&nbsp;内流区域的湖泊大多为内流河的归宿，湖水只能流进，不能流出，又因蒸发旺盛，盐分较多形成咸水湖，也称非排水湖，如中国最大的湖泊青海湖以及海拔较高的纳木错湖等。中国的湖泊按成因有河迹湖（如湖北境内长江沿岸的湖泊）、海迹湖（即睸湖，如西湖）、溶蚀湖（如云贵高原区石灰岩溶蚀所形成的湖泊）、冰蚀湖（如青藏高原区的一些湖泊）、构造湖（如青海湖、鄱阳湖、洞庭湖、滇池等）、火口湖（如长白山天池）、堰塞湖（如镜泊湖）等。
+				&hellip; <a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%B9%96%E6%B3%8A" target="_blank"><small>了解更多</small></a>
+			</p>
+			
+			<!--数据来源-->
+			<footer>
+				<p class="footer">数据来源：<a href="https://data.cnki.net/trade/Yearbook/Single/N2021020154?z=Z021" target="_blank">中华人民共和国年鉴_</a>河流和湖泊&nbsp;<time>2020</time></p>
+			</footer>
+		</section>
+		
+		<!--四、
+				水的存在形式-->
+		<section>
+			<h4 id="morphous">·水的存在形式</h4>
+			<!--固态-->
+			<section class="morphous">
+				
+				<!--数据图-->
+				<img src="images/images/4.1solid.png" width="120" alt="固态水" /><br/>
+
+				<!--文字内容-->
+				<div class="morphous">
+					<p><small>&nbsp;&nbsp;<span><strong><big>固</big></strong>态水</span>：比如冰、霜、冰雹等。当液态水的温度下降到0℃（0℃以下）时的状态，为冰呈固态。</small></p>
+				</div>
+			</section>
+			<!--液态-->
+			<section class="morphous">
+				<!--数据图-->
+				<img src="images/images/4.2liquid.png" width="120" alt="液态水" />
+
+				<!--文字内容-->
+				<div class="morphous">
+					<p><small>&nbsp;&nbsp;<span><strong><big>液</big></strong>态水</span>：我们通常用的水就是液态水，它由氢（H）、氧(O)两种元素组成的无机物，在常温常压下显示为无色无味的透明液体。</small></p>
+				</div>
+			</section>
+			<!--气态-->
+			<section class="morphous">
+				<!--数据图-->
+				<img src="images/images/4.3gas.png" width="120" alt="气态水" />
+
+				<!--文字内容-->
+				<div class="morphous">
+					<p><small>&nbsp;&nbsp;<span><strong><big>气</big></strong>态水</span>：比如水蒸气，在地球外围的大气层中，多以云或雾的形式存在，飘浮在空中，也就是液态水通过高温转化而来的。</small></p>
+				</div>
+			</section><br/>
+			<p class="information"><i>拓展资料：</i><br/><br/>
+			1、 水是在玄武岩先熔化后冷却形成原始地壳的时候产生的。最初地球是一个冰冷的球体。此后，由于存在地球内部的铀、钍等放射性元素开始衰变，释放出热能。<br/>
+			因此地球内部的物质也开始熔化，高熔点的物质下沉，易熔化的物质上升，从中分离出易挥发的物质：氮、氧、碳水化合物、硫和大量水蒸气，试验证明当1 m3花岗岩熔化时，可以释放出26 L的水和许多完全可挥发的化合物；<br/><br/>
+			2、地下深处的岩浆中含有丰富的水，实验证明，压力为15 kPa，温度为1，0000℃的岩浆，可以溶解30%的水。</p>
+		</section>
+		
+		<!--五、
+				水的营养元素-->
+		<section>
+			<h5 id="1nutrient">·水的营养元素</h5>
+			<!--数据图-->
+			<img src="images/images/5.1nutrient element.png" width="600" height="" alt="水的营养元素" />
+			
+			<!--文字内容-->
+			<div class="text">
+				<p>&nbsp;&nbsp;饮用水是必需矿物质的来源之一.水中存在对于营养和健康必需的重要膳食矿物质和电解质,尤其是天然无污染的泉水。比如说∶<span><strong>钾、钙、钠、镁、磷、铜、铁、锂、锶、锌、碘、硒</strong></span>等微量以及宏量元素，是对于人类健康必不可少的元素。<br/>
+				&nbsp;&nbsp;这些元素在人体的新陈代谢中起着举足轻重的作用，而有些则是组成人体结构的成 2如;钾，钠是体液的重要成分，维持着体液的电离平衡，同时在神经传输中起着无法取代的重要作用。钙和磷则是组成人体骨骼和牙齿的主要元素，同时，钙还控制着人体肌肉的兴奋程度以及神经系统尤其是青少年神经系统的发育等等。
+				&hellip; <a href="https://apps.who.int/iris/bitstream/handle/10665/43403/9787117242295-chi.pdf;sequence=7" target="_blank"><small>了解更多</small></a></p>
+			</div>
+			
+			<!--数据来源-->
+			<footer>
+				<p class="footer">数据来源：<a href="https://apps.who.int/iris/bitstream/handle/10665/43403/9787117242295-chi.pdf;sequence=7" target="_blank">饮用水中的营养素</a><time>&nbsp;2017</time></p>
+			</footer>
+		</section>
+		
+		<!--六、
+				水的作用图解-->
+		<section>
+			<h6 id="1effect">·水的作用图解</h6>
+			<!--数据图-->
+			<img src="images/images/6.1effect.png" width="600" alt="水的价值" />
+			
+			<!--文字内容-->
+			<div class="text">
+				<p>&nbsp;&nbsp;水中含有大量的矿物质，尤其是天然无污染的泉水。比如说∶钾、钙、钠、镁、磷、铜、铁、锂、锶、锌、碘、硒、等微量以及宏量元素。
+				&nbsp;&nbsp;这些元素在人体的新陈代谢中起着举足轻重的作用，而有些则是组成人体结构的成分，如:<br/>
+				&nbsp;&nbsp;● <span><strong>钾</strong></span>，<span><strong>钠</strong></span>是体液的重要成分，维持着体液的电离平衡，同时在神经传输中起着无法取代的重要作用。<br/>
+				&nbsp;&nbsp;● <span><strong>钙</strong></span>和<span><strong>磷</strong></span>则是组成人体骨骼和牙齿的主要元素，同时，钙还控制着人体肌肉的兴奋程度以及神经系统尤其是青少年神经系统的发育。<br/>
+				&nbsp;&nbsp;● <span><strong>铁</strong></span>，是人体血液中血红蛋白的重要组成元素，负责向体内运送氧气，同时将二氧化碳运出体内。<br/>
+				&nbsp;&nbsp;● <span><strong>碘</strong></span>，甲状腺激素的重要组成元素，主要促进人体神经系统的发育。硒，则是抗癌物质。<br/>
+				&nbsp;&nbsp;● <span><strong>铜</strong></span>,在抗氧化功能、 铁元素利用和心血管健康方面有重要作用
+					&hellip; <a href="https://apps.who.int/iris/bitstream/handle/10665/43403/9787117242295-chi.pdf;sequence=7" target="_blank"><small>了解更多</small></a>
+				</p>
+			</div>
+			
+			<!--数据来源-->
+			<footer>
+				<p class="footer">数据来源：<a href="https://apps.who.int/iris/bitstream/handle/10665/43403/9787117242295-chi.pdf;sequence=7" target="_blank">饮用水中的营养素</a><time>&nbsp;2017</time></p>
+			</footer>
+		</section>
+		</div>
+	<!--..............................................分界线..................................................-->
+		<div>
+			<img src="images/part one-four background/part two.jpg" alt="第二部分背景导图" width="100%" id="twoImage">
+			<ul type="disc" class="parttwoNav">
+				<li><a href="#humanBody">人体器官含水量</a></li>
+				<li><a href="#humanDrainge">人体每天排水和饮水量</a></li>
+				<li><a href="#age">不同年龄人体含水量</a></li>
+				<li><a href="#food">常见食物含水量</a></li>
+				<li><a href="#waterLoss">不同失水程度时状态</a></li>
+			</ul>
+		</div>
+		<!--..............................................分界线..................................................-->
+	<div class="partTwo">
+	<h7 id="humanBody">·人体器官含水量</h7>
+		<img src="images/part one-four background/humanbg.png" alt="bg" class="humanBg">
+	<div class="humanBody">
+	<div><!--人体图-->
+		<div><!--脑-->
+			<dl>
+				<dt>
+					<a href="#brain"><img src="images/human body/brain.png" alt="brain" class="brain" ></a>
+					<div class="brain" id="brain">74.8%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--肺-->
+			<dl>
+				<dt>
+					<a href="#lung"><img src="images/human body/lung.png" alt="lung" class="lung" ></a>
+					<div class="lung" id="lung">79.0%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--心-->
+			<dl>
+				<dt>
+					<a href="#heart"><img src="images/human body/heart.png" alt="heart" class="heart" ></a>
+					<div class="heart" id="heart">79.2%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--肾-->
+			<dl>
+				<dt>
+					<a href="#kidney"><img src="images/human body/kidney.png" alt="kidney" class="kidney" ></a>
+					<div class="kidney" id="kidney">82.7%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--肝-->
+			<dl>
+				<dt>
+					<a href="#liver"><img src="images/human body/liver.png" alt="liver" class="liver" ></a>
+					<div class="liver" id="liver">68.3%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--脾-->
+			<dl>
+				<dt>
+					<a href="#spleen"><img src="images/human body/spleen.png" alt="spleen" class="spleen" ></a>
+					<div class="spleen" id="spleen">75.8%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--肠-->
+			<dl>
+				<dt>
+					<a href="#intestinal"><img src="images/human body/intestinal.png" alt="intestinal" class="intestinal" ></a>
+					<div class="intestinal" id="intestinal">74.5%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--肌肉-->
+			<dl>
+				<dt>
+					<a href="#muscle"><img src="images/human body/muscle.png" alt="muscle" class="muscle" ></a>
+					<div class="muscle" id="muscle">75.6%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--骨骼-->
+			<dl>
+				<dt>
+					<a href="#skeleton"><img src="images/human body/skeleton.png" alt="skeleton" class="skeleton" ></a>
+					<div class="skeleton" id="skeleton">22.0%</div>
+				</dt>
+			</dl>
+		</div>
+		<div><!--皮肤-->
+			<dl>
+				<dt>
+					<a href="#skin"><img src="images/human body/skin.png" alt="skin" class="skin" ></a>
+					<div class="skin" id="skin">22.0%</div>
+				</dt>
+			</dl>
+		</div>
+		<img src="images/human body/human body.png" alt="human body" class="human">
+	</div>
+	<div class="humanText">
+		<p>
+			人体中每个器官的含水量有所不同，水分占大脑的74.8%、<br>心脏79.2%、肺79.0%、<br>肝脏68.3%等。只要身体缺少了1%-2%的水分，<br>各个器官就得不到充足的水分和营养，而浸泡在脑脊液中的大脑，<br>只要失去了1%的水分就将导致致命的后果。<br>
+		</p>
+	</div>
+	</div>
+	<!--..............................................分界线..................................................-->
+	<h8 id="humanDrainge">·人体每天排水量和饮水量</h8>
+	<img src="images/part one-four background/draingebg.png" alt="bg" class="draingeBg">
+	<div class="humanDrainge">
+		<dl>
+			<dt>
+				<img src="images/human drainage/coordinate system.png" alt="coordinate system"  class="coordinateSystem">
+				<a href="#dottedCineR">
+					<img src="images/human drainage/renal micturition.png" alt="renal micturition"  class="renalMicturition">
+				</a>
+				<div id="dottedCineR"><!--肾脏排水标线、数字-->
+					<img src="images/human drainage/dotted line.png" alt="dotted line" class="dottedCineR">
+					<p class="R">1500ml</p>
+				</div>
+			</dt>
+			<dt>
+				<a href="#dottedCineS">
+					<img src="images/human drainage/skin evaporation.png" alt="skin evaporation"  class="skinEvaporation">
+				</a>
+				<div id="dottedCineS"><!--皮肤蒸发标线、数字-->
+					<img src="images/human drainage/dotted line.png" alt="dotted line"  class="dottedCineS">
+					<p class="S">500ml</p>
+				</div>
+			</dt>
+			<dt>
+				<a href="#dottedCineP">
+					<img src="images/human drainage/pulmonary respiration.png" alt="pulmonary respiration"  class="pulmonaryRespiration">
+				</a>
+				<div id="dottedCineP"><!--肺呼吸标线、数字-->
+					<img src="images/human drainage/dotted line.png" alt="dotted line"  class="dottedCineP">
+					<p class="P">400ml</p>
+				</div>
+			</dt>
+			<dt>
+				<a href="#dottedCineF">
+					<img src="images/human drainage/faeces.png" alt="faeces"  class="faeces">
+				</a>
+				<div id="dottedCineF"><!--粪便标线、数字-->
+					<img src="images/human drainage/dotted line.png" alt="dotted line"  class="dottedCineF">
+					<p class="F">100ml</p>
+				</div>
+			</dt>
+		</dl>
+		<div class="humanDraingeText">
+			<p>人体每天通过肾脏排出水分1500ml，<br>皮肤蒸发水分500ml，<br>肺呼吸400ml，粪便排出100ml，总计2500ml。<br>所以建议每天饮用2500ml以上的水。</p>
+		</div>
+		<p class="humanDraingeMl">(ml)</p>
+	</div>
+<!--..............................................分界线..................................................-->
+	<h9 id="age">·不同年龄人体含水量</h9>
+	<img src="images/part one-four background/agebg.png" alt="bg" class="ageBg">
+	<div class="age">
+		<p>随年龄增加，人体水含量变化：</p>
+		<div class="agePerccentage">
+			<span>&nbsp;90%</span>
+			<span>&nbsp;&nbsp; 80%</span>
+			<span>&nbsp;&nbsp;75%</span>
+			<span>&nbsp;&nbsp;70%</span>
+			<span> 60%-65%</span>
+			<span>58%-60%</span>
+		</div>
+		<div class="pie">
+			<img src="images/people of all ages/pie chart of embryo.png" alt="pie chart of embryo">
+			<img src="images/people of all ages/pie chart of baby.png" alt="pie chart of embryo">
+			<img src="images/people of all ages/pie chart of youth.png" alt="pie chart of embryo">
+			<img src="images/people of all ages/pie chart of man.png" alt="pie chart of embryo">
+			<img src="images/people of all ages/pie chart of woman.png" alt="pie chart of embryo">
+			<img src="images/people of all ages/pie chart of elder.png" alt="pie chart of embryo">
+		</div><!--饼状图-->
+		<div class="people">
+			<img src="images/people of all ages/embryo.png" alt="embryo">
+			<img src="images/people of all ages/baby.png" alt="baby">
+			<img src="images/people of all ages/youth.png" alt="youth">
+			<img src="images/people of all ages/man.png" alt="man" class="man" height="400px">
+			<img src="images/people of all ages/woman.png" alt="woman">
+			<img src="images/people of all ages/elder.png" alt="elder">
+		</div><!--具象图-->
+		<div class="lineAge">
+			<img src="images/people of all ages/line chart of age.png" alt="line chart of age">
+			<p>数据来源：有来医生</p>
+		</div>
+		<div class="ageText">
+			<p>随着年龄的增长，人体内水分会慢慢减少。<br>但是不管什么年龄水分占比都很高。最高是胚胎时期，<br>水分占比90%，最低是老年时期，仍然高达58%-60%</p>
+		</div>
+	</div>
+	<!--..............................................分界线..................................................-->
+	<h10 id="food">·常见食物含水量</h10>
+	<img src="images/part one-four background/foodbg.png" alt="bg" class="foodBg">
+	<div class="food">
+		<div>
+			<img src="images/common food water/common food water line.png" alt="common food water line" class="waterLine">
+		</div>
+		<dl>
+			<dt>
+				<!--<div class="vegetarian">-->
+				<a href="#beanCurd">
+					<img src="images/common food water/bean curd.png" alt="bean curd" class="beanCurd">
+				</a>
+				<div id="beanCurd">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>90</p>
+				</div><!--豆腐-->
+			</dt>
+			<dt>
+				<a href="#rice">
+					<img src="images/common food water/rice.png" alt="rice" class="rice">
+				</a>
+				<div id="rice">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>70</p>
+				</div>
+			</dt><!--米饭-->
+			<dt>
+				<a href="#steamedDumpling">
+					<img src="images/common food water/Steamed dumpling.png" alt="Steamed dumpling" class="steamedDumpling">
+				</a>
+				<div id="steamedDumpling">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>70</p>
+				</div>
+			</dt><!--蒸饺-->
+			<dt>
+				<a href="#bread">
+					<img src="images/common food water/bread.png" alt="bread" class="bread">
+				</a>
+				<div id="bread">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>33</p>
+				</div>
+			</dt><!--面包-->
+			<dt>
+				<a href="#seedCake">
+					<img src="images/common food water/seedcake.png" alt="seedcake" class="seedCake">
+				</a>
+				<div id="seedCake">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>31</p>
+				</div>
+				<!--</div>-->
+			</dt><!--油饼-->
+				<!--<div class="meat">-->
+			<dt>
+				<a href="#duck">
+					<img src="images/common food water/duck.png" alt="duck" class="duck">
+				</a>
+				<div id="duck">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>80</p>
+				</div>
+			</dt><!--鸭肉-->
+			<dt>
+				<a href="#fatCattle">
+					<img src="images/common food water/fat cattle.png" alt="fat cattle" class="fatCattle">
+				</a>
+				<div id="fatCattle">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>75</p>
+				</div>
+			</dt><!--肥牛-->
+			<dt>
+				<a href="#chicken">
+					<img src="images/common food water/chicken.png" alt="chicken" class="chicken">
+				</a>
+				<div id="chicken">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>74</p>
+				</div>
+			</dt><!--鸡肉-->
+			<dt>
+				<a href="#lean">
+					<img src="images/common food water/lean.png" alt="lean" class="lean">
+				</a>
+				<div id="lean">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>53</p>
+				</div>
+			</dt><!--瘦肉-->
+			<dt>
+				<a href="#egg">
+					<img src="images/common food water/egg.png" alt="egg" class="egg">
+				</a>
+				<div id="egg">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>30</p>
+				</div>
+			</dt><!--鸡蛋-->
+				<!--</div>-->
+				<!--<div class="fruit">-->
+			<dt>
+				<a href="#watermelon">
+					<img src="images/common food water/watermelon.png" alt="watermelon" class="watermelon">
+				</a>
+				<div id="watermelon">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>94</p>
+				</div>
+			</dt><!--西瓜-->
+			<dt>
+				<a href="#pineapple">
+					<img src="images/common food water/pineapple.png" alt="pineapple" class="pineapple">
+				</a>
+				<div id="pineapple">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>89</p>
+				</div>
+			</dt><!--菠萝-->
+			<dt>
+				<a href="#apple">
+					<img src="images/common food water/apple.png" alt="apple" class="apple">
+				</a>
+				<div id="apple">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>87</p>
+				</div>
+			</dt><!--苹果-->
+			<dt>
+				<a href="#litchi">
+					<img src="images/common food water/litchi.png" alt="litchi" class="litchi">
+				</a>
+				<div id="litchi">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>85</p>
+				</div>
+			</dt><!--荔枝-->
+			<dt>
+				<a href="#banana">
+					<img src="images/common food water/banana.png" alt="banana" class="banana">
+				</a>
+				<div id="banana">
+					<img src="images/common food water/line.png" alt="line" class="line">
+					<p>82</p>
+				</div>
+				<!--</div>-->
+			</dt><!--香蕉-->
+		</dl>
+		<p class="foodMl">(ml)</p>
+		<div class="foodText">
+			每种食物的水分含量不同，<br>右边为常见的食物水分含量，分别为素食类、肉类、水果类。
+		</div>
+	</div>
+		<!--..............................................分界线..................................................-->
+	<h11 id="waterLoss">·不同失水程度时状态</h11>
+	<img src="images/part one-four background/waterbg.png" alt="bg" class="waterBg">
+		<div class="waterLoss">
+			<img src="images/water loss/water loss line.png" alt="water loss line" class="lossLine">
+			<img src="images/water loss/totally.png" alt="totally" class="totally">
+			<dl>
+				<dt>
+					<a href="#twoPercent">
+						<img src="images/water loss/two percent.png" alt="two percent" class="twoPercent">
+					</a>
+					<div id="twoPercent">
+						<img src="images/water loss/down two percent.png" alt="two percent" class="downTwo">
+						<img src="images/water loss/two percent impress.png" alt="two percent impress" class="twoImpress">
+					</div>
+				</dt>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#tenPercent">
+						<img src="images/water loss/ten percent.png" alt="ten percent" class="tenPercent">
+					</a>
+					<div id="tenPercent">
+						<img src="images/water loss/down ten percent.png" alt="ten percent" class="downTen">
+						<img src="images/water loss/ten percent impress.png" alt="ten percent impress" class="tenImpress">
+					</div>
+				</dt>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#twentyPercent">
+						<img src="images/water loss/twenty percent.png" alt="twenty percent" class="twentyPercent">
+					</a>
+					<div id="twentyPercent">
+						<img src="images/water loss/down twenty percent.png" alt="two percent" class="downTwenty">
+						<img src="images/water loss/twenty percent impress.png" alt="two percent impress" class="twentyImpress">
+					</div>
+				</dt>
+			</dl>
+			<div class="waterText">
+				<p>当人体失水达到人体体重的2%时，就会感到口渴，尿量也会减少；<br>当人体失水达到10%时会感到烦躁、无力、体温升高，血压下降，<br>皮肤也会失去弹性。<br>当人体失水达到人体体重的20%时，会引起死亡。</p>
+			</div>
+		</div>
+<!--..............................................分界线..................................................-->
+		<div>
+			<img src="images/part one-four background/part three.jpg" alt="第三部分背景导图" width="100%" id="threeImage">
+			<ul type="disc" class="partthreeNav">
+				<li><a href="#map">淡水资源分布</a></li>
+				<li><a href="#insufficient">降水时间不均</a></li>
+				<li><a href="#Water">家庭用水</a></li>
+				<li><a href="#sewage">水污染</a></li>
+				<li><a href="#sources">污染物来源</a></li>
+			</ul>
+		</div>
+		<img src="images/part one-four background/mapbg.png" alt="bg" class="mapBg">
+		<img src="images/part one-four background/Waterbag.png" alt="bg" class="WaterBag">
+		<img src="images/part one-four background/insufficientbg.png" alt="bg" class="insufficientBg">
+		<img src="images/part one-four background/sewagebg.png" alt="bg" class="sewageBg">
+		<img src="images/part one-four background/sourcesbg.png" alt="bg" class="sourcesBg">
+		<img src="images/part one-four background/worldbg.png" alt="bg" class="worldBg">
+		<img src="images/part one-four background/protectbg.png" alt="bg" class="protectBg">
+		<div class="partThree">
+		<!--  淡水资源在地球上的分布现状  -->
+		<div>
+			<h12 id="map">·淡水资源分布</h12>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;水资源的匮乏是世界面临的难题;水是一种普通的物质，但在维持地球上人类和其它生物生存的过程中，却又弥足珍贵，是生命的源泉。从整个水圈看，地表水中的海水约占整个水圈的97.5%，而真正能够被人类直接利用的淡水资源只占0.00768%，数量极为有限。</p>
+			<div class="picture">
+				<img src="images/photograph/map.png" alt="淡水资源分布现状">
+			</div>
+			<!--  对右图的解释说明  -->
+			<div class="explain">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从地图中四种颜色分布的区域可以看出，非洲与亚洲是极度缺水的国家，尤其是非洲几乎三分之二的地区水资源都十分匮乏。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于地球上人口分布与淡水资源分布不成比例，加上水资源污染和使用过程中的浪费，世界上许多国家和地区存在着淡水资源紧张的情况。并且各个国家的地理环境不同，拥有水资源的数量差别很大，例如巴西地处热带地区，雨季丰富，植被森林茂盛，对水的储存有很大的作用，另外有亚马逊河，能起到汇集的作用，所以相对于其他国家来说，它的水资源较为充足。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;非洲迅速增长的人口是造成水资源匮乏的最主要原因，目前非洲人口为7.66亿，虽然这个数字看起来并不是很大，可是想到非洲有40%的地区是干旱地区，还有27%的土地本身就是沙漠，由此而知非洲人民大多数都不能正常的用水。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国水资源总量居世界第六位，但是我国人口众多，若按照人均水资源量计算，中国已经被列入13个贫水国家之一。</p>
+			</div>
+		</div>
+		
+		<!--  水资源时间分布不足的现状  -->
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<h13 id="insufficient">·降水时间不均</h13>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;淡水资源匮乏的原因是水资源时间分布不均。据了解，长沙湘江每年11月份到次年4月份是它的枯水期，湘江就会露出它坚硬的河床；每年的夏季，受集中的较大范围的降雨，湘江水位大幅上涨，促进了航运的发展。</p>
+		<div class="picture">
+			<img src="images/photograph/insufficient distribution of water resources.png" alt="长江径流量">
+		</div>
+		<div class="explain">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以长江为例，长江径流量的年内变化很大，并有少水年或多水年连续出现。我们受到季风气候的影响，全国大部分地区冬春少雨、夏秋多雨，东南沿海各省，雨季较长较早。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020年降水量最集中的为黄淮海平原的山前地区，汛期多以暴雨形式出现，有的年份一天大暴雨超过了多年平均年降水量。导致每年总会有段时间人类处于供水不足的状态，有时却能自由用水。</p>
+		</div>
+		
+		
+		
+		
+		
+		
+		<!--  每人每天用水量  -->
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<h14 id="Water">·家庭用水</h14>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们了解到家庭用水占淡水消费总量11%，除去农业，工业，人类用水占比最大，所以我们有必要为保护水资源尽一份力。</p>
+		<div class="meaning">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，工业与农业用水不可持续，但是我们个人对全球的水资源都应该负有责任。从图中数据可以看出，每人每天用水量接近300升，洗衣服的用水量高达100升，我们消耗的水远远超乎我们可能意识到的。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;淡水资源是有限的，地球上并非每一个人一天都消耗同样的水，有的人浪费了水，相对应的有些人就无水可用。所以我们要活得可持续，负责任的行动起来。</p>
+		</div>
+		<div class="use">
+			<div >
+				<img src="images/photograph/water ordinate.png" alt="用水量纵坐标" height="350px" width="130px">
+			</div>
+			<div class="bowl">
+				<img src="images/photograph/wash dishes.png" alt="洗碗" height="110px" width="50px" title="30">
+			</div>
+			<div class="bathe">
+				<img src="images/photograph/take a bathe.png" alt="洗澡" height="244px" width="70px" title="80">
+			</div>
+			<div class="cloth">
+				<img src="images/photograph/laundry.png" alt="洗衣服" height="290px" width="60px" title="100">
+			</div>
+			<div class=" toilet">
+				<img src="images/photograph/toilet water.png" alt="厕所用水" height="200px" width="80px" title="65">
+			</div>
+			<div class="abscissa">
+				<img src="images/photograph/obscissa.png" alt="类别横坐标" height="370px" width="150px" >
+			</div>
+		</div>
+		
+		
+		
+		<!--  水污染分类  -->
+		<br><br><br><br><br>
+		<h15 id="sewage">·水污染</h15>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当肮脏、有害的物质进入洁净的水中，水污染就发生了。水的污染源主要有：工业废水；生活污水；农业污水。</p>
+		<div class="meaning">
+			<p><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农业污染源占比最大，当人们把含有大量的氮，磷的污水排放到田地间，使水生植物死亡，水体发臭形成死湖，从而形成沼泽，使水富营养化，导致水中的鱼类大量死亡，造成大面积的水污染。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工艺生产过程中排出的废水和废液，其中含有随水流失的工业生产用料、中间产物、副产品以及生产过程中产生的污染物，是造成环境污染，特别是水污染的重要原因。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人类生产生活所需要的水利用完之后排放到下水道便成了污水，也是造成水污染的原因之一。</p>
+		</div>
+		<div class="sewage">
+			<div >
+				<img src="images/photograph/percentage.png" alt="百分比" height="370px" width="110px">
+			</div>
+			<div class=" industry">
+				<img src="images/photograph/industrial waster water.png" alt="工业废水" height="180px" width="80px" title="32%">
+			</div>
+			<div class=" life">
+				<img src="images/photograph/domestic sewage.png" alt="生活污水" height="100px" width="70px" title="12%">
+			</div>
+			<div class=" agriculture">
+				<img src="images/photograph/agricultural sewage.png" alt="农业污水" height="270px" width="80px" title="56%">
+			</div>
+			<div class="classification">
+				<img src="images/photograph/classify.png" alt="分类污水" height="380px" width="100px" >
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<!--  污染物的来源  -->
+		<br><br><br><br><br><br>
+		<h16 id="sources">·污染物来源</h16>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们需要了解造成水污染的各种污染物，从根本上解决问题。</p>
+		<div class="picture">
+			<img src="images/photograph/sources of pollutants.png" alt="污染物的来源">
+		</div>
+		<div class="explain">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;绝大部分有机化学药品有毒性, 它们进入江河湖泊会毒害或毒死水中生物, 引起生态破坏。一些有机化学药品会积累在水生生物体内, 致使人食用后中毒。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大多数洗涤灵都是石油化工的产品, 难以降解, 排入河中不仅会严重污染水体, 而且会积累在水产物中, 人吃后会出现中毒现象。</p>
+		</div>
+		</div>
+<!--..............................................分界线..................................................-->
+		<div>
+			<img src="images/part one-four background/part four.jpg" alt="第四部分背景导图" width="100%" id="fourImage">
+			<ul type="disc" class="partfourNav">
+				<li><a href="#worldDate">世界水日</a></li>
+				<li><a href="#protect">保护水资源措施</a></li>
+			</ul>
+		</div>
+		<div class="partFour">
+		<!--  世界水日  -->
+		<h17 id="worldDate">·世界水日</h17>
+		<div class="picture">
+			<img src="images/photograph/water history diagram.png" alt="世界水日">
+		</div>
+		<div class="explain">
+			<p><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;水是一切生命赖以生存，社会经济发展不可缺少和不可替代的重要自然资源和环境要素。为了唤起公众的水意识，建立一种更为全面的水资源可持续利用的体制和相应的运行机制，通过开展广泛的宣传教育活动，增强公众对开发和保护水资源的意识。让我们节约用水，不要让最后一滴水成为我们的眼泪！<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;世界水日宗旨是唤起公众的节水意识，加强水资源保护。1993年1月18日，第四十七届联合国大会作出决议，确定每年的3月22日为“世界水日”。</p>
+		</div>
+		
+		<!--  保护措施  -->
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<h18 id="protect">·保护水资源措施</h18>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了保护我们的水资源，我们应该积极采取行动！</p><br>
+		<div class="drip">
+			<img src="images/photograph/water drop.png" alt="水滴">
+		</div>
+		<div class="sentence">
+			<p>1.个人在日常生活中节约用水，自觉树立节水意识，使用节水龙头并养成随手关紧水龙头的习惯……<br><br>2.企业生产要实行节能减排，利用先进技术，循环用水，防止水污染。<br><br>3.政府要大力宣传，积极倡导，建立全民节水意识，建立建全相关法律以及各种赏罚制度。</p>
+		</div>
+		</div>
+		<footer class="url">
+			<p>
+			数据来源：<br>
+			主要河流流域面积、主要湖泊湖面面积：来源：中国民政与经济社会发展统计数据库：http://127.0.0.1:49983/preview/app/index.html；<br>
+			水的营养元素、水的作用：来源：《饮用水中的营养素》：http://127.0.0.1:49983/preview/app/index.html；<br>
+			人体器官含水量：来源：腾讯新闻：https://xw.qq.com/cmsid/20200529a0odt500?f=newdc；<br>
+			人体每天排水量和饮水量：来源：百度知道：https://mbd.baidu.com/ma/s/fS1vEkZA；<br>
+			不同年龄人体含水量：数据来源：有来医生：https://my.mbd.baidu.com/r/oLBRhpk5i0?f=cp&u=19ae217c55fb72ba；
+			常见食物含水量：数据来源：百度文库：https://mbd.baidu.com/ma/s/hJROQS3l；<br>
+			不同程度失水时状态：数据来源：39健康网：https://wapask-mip.39.net/bdsshz/question/59363052.html；<br>
+			淡水资源分布、降水时间：数据来源：国家统计局：www.stats.gov.cn；<br>
+			家庭用水：数据来源：新华社：www.xinhuanet.com；<br>
+			水污染：数据来源：镝数聚：
+			http://www.dydata.io/datastore/detail/2002265075976638464/2019年中国各类直排海污染源污水及主要污染物排放总量情况；<br>
+			污染物来源：数据来源：镝数聚：http://www.dydata.io/datastore/detail/1986022156936548352/2012年中国废气中主要污染物排放量。
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
